@@ -2,6 +2,7 @@
 
 ## Strategies used
 - Branching Strategy: [Github Workflow][1]
+- DevOps Startegy: [DevOps Roadmap][2]
 
 ## Environments
 - Dev
@@ -23,8 +24,7 @@
 - [ ] SecOps
 - [ ] Chaos Engineering
 
-## References
-- https://roadmap.sh/devops
 
 <!-- Links -->
 [1]: https://docs.github.com/en/get-started/quickstart/github-flow
+[2]: https://roadmap.sh/devops
