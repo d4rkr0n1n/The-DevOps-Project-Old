@@ -17,6 +17,7 @@
 - [ ] Artifact Management
 - [ ] Service Mesh
 - [ ] SecOps
+- [ ] Chaos Engineering
 
 ## References
 - https://roadmap.sh/devops
