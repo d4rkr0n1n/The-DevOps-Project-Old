@@ -1,7 +1,7 @@
 # DevOps-Toolkit
 
 ## Strategies used
-- Branching Strategy: Github Workflow[1]
+- Branching Strategy: [Github Workflow][1]
 
 ## Environments
 - Dev
@@ -25,4 +25,6 @@
 
 ## References
 - https://roadmap.sh/devops
-- [1](https://docs.github.com/en/get-started/quickstart/github-flow)
+
+<!-- Links -->
+[1]: https://docs.github.com/en/get-started/quickstart/github-flow
