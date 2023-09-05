@@ -4,13 +4,12 @@
 - Branching Strategy: [Github Workflow][1]
 - DevOps Startegy: [DevOps Roadmap][2]
 
-## Environments
-- Dev
-- Test(QA+Performance+Load+Smoke)
-- Staging
-- Prod
-
 ## Project Checklist
+- [x] Configure Environments
+  - Development
+  - Test(QA+Performance+Load+Smoke)
+  - Staging
+  - Production
 - [ ] Infrastructure Provisioning for all environments
 - [ ] Configuration Management
 - [ ] CI/CD
