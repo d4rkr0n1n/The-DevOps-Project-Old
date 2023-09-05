@@ -1,4 +1,8 @@
 # DevOps-Toolkit
+
+## Strategies used
+- Branching Strategy: Github Workflow
+
 ## Environments
 - Dev
 - Test(QA+Performance+Load+Smoke)
