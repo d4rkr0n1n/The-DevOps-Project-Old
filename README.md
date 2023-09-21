@@ -1,4 +1,4 @@
-# DevOps-Toolkit
+# The-DevOps-Project
 
 ## Strategies used
 - Branching Strategy: [Github Workflow][1]
