@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
     workstation.vm.hostname = "workstation"
     workstation.vm.network "private_network", ip: IP_NETWORK + "#{WORKSTATION_IP}"
     workstation.vm.provider :virtualbox do |v|
-      v.memory = 2048
+      v.memory = 4096
       v.name = "workstation"
       v.cpus = 2
     end
@@ -18,6 +18,9 @@ Vagrant.configure("2") do |config|
     end
     workstation.vm.provision "upgrades", type: "shell", run: "never" do |s|
       s.path = "scripts/upgrades.sh"
+    end
+    workstation.vm.provision "webapp", type: "shell", run: "never" do |s|
+      s.path = "scripts/webapp.sh"
     end
     workstation.vm.provision "bootstrap", type: "shell", run: "never" do |s|
       s.inline = "echo 'bootstrapping'"
